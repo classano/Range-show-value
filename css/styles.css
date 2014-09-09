@@ -1,0 +1,32 @@
+body{
+	font: 15px verdana;
+	margin: 50px 0 0 0;
+	padding: 0;
+}
+
+output{ 
+    position: absolute;
+    min-height: 20px; 
+    padding: 0 14px;
+    text-align: center; 
+    color: #000; 
+    border-radius: 10px; 
+    display: inline-block; 
+    font: 15px verdana;
+    bottom: 175%;
+    left: 0;
+    margin-left: -1%;
+}
+output:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #000;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -1px;
+}
